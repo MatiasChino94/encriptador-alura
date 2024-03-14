@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador - Challenge Alura</title>
+</head>
+
+<body>
+    <header>
+        <figure class="logo__contenedor">
+            <img class="logo__imagen" src="./img/Logo.svg" alt="">
+        </figure>
+    </header>
+
+    <main>
+        <section class="caja__1">
+            <div class="caja__texto">
+                <textarea id="texto" class="texto" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="caja__botones">
+                <button class="boton__encriptar">Encriptar</button>
+                <button class="boton__desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="caja__2">
+            <figure class="caja__logo">
+                <img src="./img/Muñeco.svg" alt="">
+            </figure>
+            <div class="caja__parrafos">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="caja__resultado">
+                <h3>Resultado</h3>
+                <textarea class="resultado__texto" disabled></textarea>
+                <button class="boton__copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4fc;
+    font-family: "Inter", sans-serif;
+}
+
+.logo__contenedor {
+    width: 90%;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.caja__1 {
+    width: 65%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja__texto {
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+
+}
+
+.texto {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    resize: none;
+    font-weight: 400;
+
+
+}
+
+
+.texto::placeholder {
+    color: #0a3871;
+}
+
+.caja__botones {
+    margin-top: 30px;
+}
+
+.boton__encriptar {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border-style: none;
+    background-color: darkblue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.boton__desencriptar {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border-style: none;
+    background-color: #D8DFE8;
+    border-radius: 24px;
+    border: 1px darkblue solid;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.caja__2 {
+    width: 30%;
+    height: 800px;
+    background-color: #ffffff;
+    margin: 2px 0 20px 0;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caja__logo {
+    margin: 0 32px;
+}
+
+.caja__logo img {
+    width: 100%;
+
+}
+
+.caja__parrafos h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343a40;
+}
+
+.caja__parrafos p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.caja__resultado{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.caja__resultado h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343a40;
+}
+
+.caja__resultado textarea{
+    width: 90%;
+    height: 60%;
+    border: none;
+    background-color: white;
+    color: #0a3871;
+    font-size: 25px;
+    resize: none;
+    font-weight: 400;
+}
+
+.caja__resultado button {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border-style: none;
+    background-color: darkblue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+}
